@@ -1,0 +1,146 @@
+
+/******************** TAG SELECTORS *************************/
+body{
+  margin: 0;
+  text-align: center;
+  padding: 0;
+  background-color: white;
+}
+
+h1{
+  font-family: 'Cute Font', serif;
+  font-size: 9em;
+  padding-top: 300px;
+  position: relative;
+  margin: 0;
+  color: #42e6a4;
+}
+hr{
+  border: dotted #f5dea3 6px;
+  border-bottom: none;
+  width: 5%;
+  margin: 50px auto;
+}
+
+h3{
+  color: #42e6a4;
+  font-family: 'Do Hyeon', sans-serif;
+  font-size: 1.5em;
+  position: relative;
+  margin-top: 20px;;
+}
+h2{
+  color: #42e6a4;
+  font-family: 'Do Hyeon', sans-serif;
+  font-size: 2.5em;
+  margin-top: 0;
+  position: relative;
+}
+footer{
+  display: inline-block;
+  height: 100px;
+  background-color: #02a8a8;
+  width: 100%;
+}
+footer a {
+  position: relative;
+  padding: 10px;
+  text-decoration: none;
+  color: #018383;
+  top: 20px;
+}
+footer a:hover{
+  color: white;
+}
+footer p {
+  position: relative;
+  top: 40px;
+}
+/******************** CLASS SELECTORS *************************/
+.top{
+  position: relative;
+  top: 0;
+  height: 100vh;
+  width: 100%;
+  background-color: #018383;
+}
+.top img{
+  width: 85%;
+  position:absolute;
+  top: -80px;
+  left: 0;
+}
+.middle{
+  background-color: white;
+  padding-top: 10vh;
+}
+.screen{
+  background-color: #02a8a8;
+  bottom: 10vh;
+  height: 55vh;
+  left: 20%;
+  position: absolute;
+  width: 60%;
+}
+.prof{
+  width:15em;
+  border-radius: 50%;
+  margin: 15px;
+}
+.skills{
+  margin: 0 auto;
+  width: 60%;
+  padding: 10px 0 20px;
+}
+.skill-row{
+  text-align: left;
+  line-height: 2;
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+.design {
+  float: right;
+  width:25%;
+  margin: 15px;
+}
+.dev{
+  position: relative;
+  bottom: 0;
+  margin: 15px;
+  width: 20%;
+  float: left;
+  border-radius: 50%;
+
+}
+.bottom {
+  background-color: white;
+  padding-top: 40px;
+  height: 400px;
+}
+.bottom p {
+  width: 40%;
+  padding: 10px;
+  margin: 30px auto;
+
+}
+.bottom img{
+  width: 5em;
+}
+.intro{
+  width: 40%;
+  margin: auto;
+}
+
+
+.btn {
+  font-size: 1.5em;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #42e6a4;
+  text-decoration: none;
+  color: white;
+}
+
+.btn:hover{
+  background-color: #02a8a8;
+}
